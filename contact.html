@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Books Store</title>
+  <link rel="stylesheet" href="main.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <img src="images/books.jpg" alt="Books Store Logo" class="left-img">
+      <div class="header-text">
+        <h1>Welcome to Books Store!</h1>
+        <p>Your one-stop destination for all book lovers. Explore our wide collection of books for every taste and age.</p>
+      </div>
+      <img src="images/books.jpg" alt="Books Store Logo" class="right-img">
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html" class="active">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>Contact Us</h2>
+    <p>If you have any questions or need assistance, feel free to reach out to us!</p>
+    <form action="submit_contact.php" method="post" class="contact-form">
+      <div class="form-groups">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" required>
+      <br>
+      <br>
+        <label for="email">Email:  </label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <br>
+      <div class="form-group">
+      
+        <textarea id="message" name="message" rows="5" required placeholder="Enter Your Message"></textarea>
+      </div>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+
+  <footer>
+    <p><strong>Contact Us:</strong></p>
+    <p>Email: support@booksstore.com | Phone: +1 234 567 890</p>
+    <p><strong>Follow us:</strong></p>
+    <p>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a> |
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i> Facebook</a> |
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+    </p>
+    <p><strong>Store Hours:</strong></p>
+    <p>Monday - Friday: 9:00 AM - 8:00 PM | Saturday - Sunday: 10:00 AM - 6:00 PM</p>
+    <p>&copy; 2024 Books Store. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
+
+
